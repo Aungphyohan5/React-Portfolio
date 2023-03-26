@@ -1,7 +1,7 @@
 import React from 'react';
-import Card from 'react-bootstrap/Card';
-import CardGroup from 'react-bootstrap/CardGroup';
-import '../../styles/Portfolio.css';
+import Card from 'react-bootstrap/Card'; //react-bootstrap
+import CardGroup from 'react-bootstrap/CardGroup'; //react-bootstrap
+import '../../styles/Portfolio.css'; //custom style
 
 export default function Portfolio() {
   return (

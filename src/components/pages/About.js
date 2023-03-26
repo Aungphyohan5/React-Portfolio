@@ -1,35 +1,16 @@
 import React from 'react';
 import { FaGithub, FaLinkedin, FaStackOverflow } from 'react-icons/fa';
+import '../../styles/About.css';
 
 
 
-const styles = {
-  card: {
-    width: '20rem',
-  },
-  cardBg: {
-    backgroundColor: '#020312'
-  },
 
-  bgImage: {
-    backgroundImage: 'url(https://user-images.githubusercontent.com/112873819/227738031-abe03396-d5e4-4ba4-9f4e-184bd26aa249.jpg)',
-    backgroundSize: 'cover',
-    backgroundRepeat: 'no-repeat',
-    backgroundPosition: 'center',
-    height: '100vh'
-  },
-
-  customWidth: {
-    maxWidth: '500px',
-    paddingTop: '350px'
-  }
-}
 
 export default function About() {
   return (
     <div>
-      <div className='d-flex text-white' style={styles.bgImage}>
-        <div className='container-sm' style={styles.customWidth}>
+      <div className='d-flex text-white bgImage'>
+        <div className='container-sm customWidth'>
           <h1 className='mb-4'><span style={{ color: '#F2921D ' }}>Hi,</span> I am Aung Phyo Han</h1>
           <h2> Full Stack Developer</h2>
           <a href='https://github.com/Aungphyohan5'><FaGithub size={30} color="#F2CD5C" className='m-2' /></a>
@@ -40,7 +21,7 @@ export default function About() {
 
 
         </div>
-        <div className='container-sm' style={styles.customWidth}>
+        <div className='container-sm customWidth'>
           <h2 className='mb-4 font-weight-bold' style={{ color: '#F2921D ' }}>About me</h2>
           <p>
             I have found my passion in web development. Currently, I am attending a web-development Bootcamp from the University of New Brunswick. I love spending time coding and encountering new challenges.
@@ -49,14 +30,14 @@ export default function About() {
 
       </div>
 
-      <div style={styles.cardBg}>
+      <div className='cardBg'>
         <div >
           <h2 className='text-center pb-5' style={{ color: '#F2921D ' }}>What I Am Great At</h2>
         </div>
 
         <div className="container d-flex justify-content-between mb-5">
 
-          <div className="card" style={styles.card}>
+          <div className="card" >
             <img className="card-img-top" src="https://user-images.githubusercontent.com/112873819/227736189-9bfad932-5027-482c-82c6-a10175082629.svg" alt="Card image cap"></img>
             <div className="card-body">
               <h2 className='text-center'>Node Js</h2>
@@ -64,7 +45,7 @@ export default function About() {
             </div>
           </div>
 
-          <div className="card" style={styles.card}>
+          <div className="card" >
             <img className="card-img-top" src="https://user-images.githubusercontent.com/112873819/227736221-08f23783-6a50-487d-8375-bac6db538404.png" alt="Card image cap"></img>
             <div className="card-body">
               <h2 className='text-center'>React</h2>
@@ -72,7 +53,7 @@ export default function About() {
             </div>
           </div>
 
-          <div className="card" style={styles.card}>
+          <div className="card" >
             <img className="card-img-top" src="https://user-images.githubusercontent.com/112873819/227736243-59469e7a-bcf2-45e9-ae31-0858c23216fb.png" alt="Card image cap"></img>
             <div className="card-body">
               <h2 className='text-center'>Express Js</h2>
@@ -83,7 +64,7 @@ export default function About() {
 
         <div className="container d-flex justify-content-between">
 
-          <div className="card" style={styles.card}>
+          <div className="card">
             <img className="card-img-top" src="https://user-images.githubusercontent.com/112873819/227736247-3d6c4412-abc3-4228-a11e-bf9cc6a7b91a.png" alt="Card image cap"></img>
             <div className="card-body">
               <h2 className='text-center'>MongoDB</h2>
@@ -91,7 +72,7 @@ export default function About() {
             </div>
           </div>
 
-          <div className="card" style={styles.card}>
+          <div className="card">
             <img className="card-img-top" src="https://user-images.githubusercontent.com/112873819/227736252-427f1f86-76a1-42c3-82c4-2540f4869b69.png" alt="Card image cap"></img>
             <div className="card-body">
               <h2 className='text-center'>JQuery</h2>
@@ -99,7 +80,7 @@ export default function About() {
             </div>
           </div>
 
-          <div className="card" style={styles.card}>
+          <div className="card" >
             <img className="card-img-top" src="https://user-images.githubusercontent.com/112873819/227736255-802f1945-f30a-4291-b606-50ed677c47b1.png" alt="Card image cap"></img>
             <div className="card-body">
               <h2 className='text-center'>MySQL</h2>

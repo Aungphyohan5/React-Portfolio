@@ -1,0 +1,20 @@
+.card {
+    width: 20rem;
+}
+
+.cardBg {
+    background-color: #020312;
+}
+
+.bgImage {
+    background-image: url(https://user-images.githubusercontent.com/112873819/227738031-abe03396-d5e4-4ba4-9f4e-184bd26aa249.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.customWidth {
+    max-width: 500px;
+    padding-top: 350px;
+}
