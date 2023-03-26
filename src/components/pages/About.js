@@ -1,4 +1,6 @@
 import React from 'react';
+import { FaGithub, FaLinkedin, FaStackOverflow } from 'react-icons/fa';
+
 
 
 const styles = {
@@ -28,11 +30,14 @@ export default function About() {
     <div>
       <div className='d-flex text-white' style={styles.bgImage}>
         <div className='container-sm' style={styles.customWidth}>
-          <h1 className='mb-4'>Hi, I am Aung Phyo Han</h1>
+          <h1 className='mb-4'><span style={{ color: '#F2921D ' }}>Hi,</span> I am Aung Phyo Han</h1>
           <h2> Full Stack Developer</h2>
-          <div>
+          <a href='https://github.com/Aungphyohan5'><FaGithub size={30} color="#F2CD5C" className='m-2' /></a>
+          <a href='https://www.linkedin.com/feed/'><FaLinkedin size={30} color="#F2CD5C" className='m-2' /></a>
+          <a href='https://stackoverflow.com/'><FaStackOverflow size={30} color="#F2CD5C" className='m-2' /></a>
 
-          </div>
+
+
 
         </div>
         <div className='container-sm' style={styles.customWidth}>
