@@ -1,0 +1,28 @@
+.portfolio-bg {
+    background-image: url(https://user-images.githubusercontent.com/112873819/227780446-4b42eac7-0e98-417a-a743-b4b317fdce92.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.portfolio-container {
+    padding-top: 200px;
+    padding-bottom: 100px;
+    align-items: center;
+    margin: 0 50px;
+}
+
+.cardSpacing {
+    margin: 50px;
+    text-align: center;
+    background-color: #EBB02D;
+    color: white;
+}
+
+.cardSpacing:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.2);
+}
