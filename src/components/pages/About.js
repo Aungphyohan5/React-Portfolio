@@ -21,7 +21,7 @@ export default function About() {
 
 
         </div>
-        <div className='container-sm customWidth'>
+        <div className='container-sm customWidth' style={{ width: '500px', paddingRight: '100px' }}>
           <h2 className='mb-4 font-weight-bold' style={{ color: '#F2921D ' }}>About me</h2>
           <p>
             I have found my passion in web development. Currently, I am attending a web-development Bootcamp from the University of New Brunswick. I love spending time coding and encountering new challenges.
@@ -62,7 +62,7 @@ export default function About() {
           </div>
         </div>
 
-        <div className="container d-flex justify-content-between">
+        <div className="container d-flex justify-content-between pb-5">
 
           <div className="card">
             <img className="card-img-top" src="https://user-images.githubusercontent.com/112873819/227736247-3d6c4412-abc3-4228-a11e-bf9cc6a7b91a.png" alt="Card image cap"></img>
@@ -93,6 +93,20 @@ export default function About() {
 
 
       </div >
+      <footer>
+        <h3 className='text-white text-center pt-5'>Building the future through <span style={{ color: '#F2921D ' }}>code</span></h3>
+        <div className='icons'>
+          <h4 className='text-white'>Contact</h4>
+          <a href='https://github.com/Aungphyohan5'><FaGithub size={30} color="#F2CD5C" className='m-2' /></a>
+          <a href='https://www.linkedin.com/feed/'><FaLinkedin size={30} color="#F2CD5C" className='m-2' /></a>
+          <a href='https://stackoverflow.com/'><FaStackOverflow size={30} color="#F2CD5C" className='m-2' /></a>
+        </div>
+        <div className='text-white text-center'>
+          <small >&copy; 2023 Your Name. All rights reserved.</small>
+        </div>
+
+
+      </footer>
 
     </div>
 

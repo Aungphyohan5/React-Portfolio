@@ -15,6 +15,17 @@
 }
 
 .customWidth {
-    max-width: 500px;
     padding-top: 350px;
+    text-align: center;
+
+}
+
+footer {
+    background-color: rgb(7, 7, 45);
+    height: 300px;
+}
+
+.icons {
+    text-align: center;
+    padding: 30px 0;
 }
