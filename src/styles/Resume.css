@@ -1,0 +1,10 @@
+.resume-bg {
+    background-image: url(https://user-images.githubusercontent.com/112873819/227780446-4b42eac7-0e98-417a-a743-b4b317fdce92.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    padding-top: 0;
+    margin-top: 0;
+    color: white;
+}
