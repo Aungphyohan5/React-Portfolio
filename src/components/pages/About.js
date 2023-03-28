@@ -126,7 +126,7 @@ export default function About() {
           <a href='https://stackoverflow.com/'><FaStackOverflow size={30} color="#F2CD5C" className='m-2' /></a>
         </div>
         <div className='text-white text-center'>
-          <small >&copy; 2023 Your Name. All rights reserved.</small>
+          <small >&copy; 2023 Aung Phyo Han. All rights reserved.</small>
         </div>
 
 
