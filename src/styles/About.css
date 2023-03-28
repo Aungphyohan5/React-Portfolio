@@ -1,6 +1,14 @@
 .card {
     width: 20rem;
+    min-height: 35rem;
+    padding: 5px;
+    margin-bottom: 20px;
+    margin-left: 50px;
 }
+
+/* .card-group {
+    margin-bottom: 30px;
+} */
 
 .cardBg {
     background-color: #020312;
