@@ -5,7 +5,7 @@ export default function Resume() {
   return (
     <div className='resume-bg'>
       <div className='p-5'>
-        <p>Please download the resume<a href="" download>
+        <p>Please download the resume<a href="https://github.com/Aungphyohan5/react-portfolio/files/11095626/My.Resume.docx" download>
           Click to download
         </a></p>
         <h3>Front-end Proficiencies</h3>
