@@ -46,7 +46,7 @@ In this project, I created my portfolio app using the react.
 
 Repository URL  - https://github.com/Aungphyohan5/react-portfolio
 
-Deployed Url  -
+Deployed Url  - https://aungphyohan5.github.io/react-portfolio/
 
  
 ## Screenshots
