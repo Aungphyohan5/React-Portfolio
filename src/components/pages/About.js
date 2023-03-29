@@ -13,8 +13,8 @@ import '../../styles/About.css';
 export default function About() {
   return (
     <div>
-      <div className='d-flex text-white bgImage'>
-        <div className='container-sm customWidth'>
+      <div className='d-flex text-white bgImage hide'>
+        <div className='container-sm customWidth' style={{ paddingLeft: '40px' }}>
           <h1 className='mb-4'><span style={{ color: '#F2921D ' }}>Hi,</span> I am Aung Phyo Han</h1>
           <h2 style={{ color: '#159895' }}> Full Stack Developer</h2>
           <a href='https://github.com/Aungphyohan5'><FaGithub size={30} color="#F2CD5C" className='m-2' /></a>
@@ -25,7 +25,7 @@ export default function About() {
 
 
         </div>
-        <div className='container-sm customWidth' style={{ width: '500px', paddingRight: '100px' }}>
+        <div className='container-sm customWidth lead small-device' style={{ width: '600px', paddingRight: '100px' }}>
           <h2 className='mb-4 font-weight-bold' style={{ color: '#F2921D ' }}>About me</h2>
           <p>
             I have found my passion in web development. Currently, I am attending a web-development Bootcamp from the University of New Brunswick. I love spending time coding and encountering new challenges.
