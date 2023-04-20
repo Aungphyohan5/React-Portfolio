@@ -12,6 +12,7 @@ In this project, I created my portfolio app using the react.
 - [Link](#Link)
 - [Screenshots](#Screenshots)
 - [Usage](#Usage)
+- [Technologies](#technologies)
 - [License](#license)
 
 

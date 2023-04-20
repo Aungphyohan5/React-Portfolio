@@ -9,6 +9,16 @@ export default function Portfolio() {
       <div className='portfolio-container'>
         <h1 className='text-center text-white'>My Portfolio</h1>
         <CardGroup>
+
+          <Card className=' mx-4 cardSpacing rounded'>
+            <Card.Img variant="top" src="https://user-images.githubusercontent.com/112873819/233417344-91bb908c-fd84-4d5d-ac80-4ab01c234515.png" />
+            <Card.Body>
+              <Card.Title className='mb-4'>EastCoastCamping</Card.Title>
+              <Card.Link href="https://eastcoastcampingp-3.herokuapp.com/">Deployed Link</Card.Link><br></br>
+              <Card.Link href=" https://github.com/Aungphyohan5/EastCoastCamping/">Repository Link</Card.Link>
+            </Card.Body>
+          </Card>
+
           <Card className=' mx-4 cardSpacing rounded'>
             <Card.Img variant="top" src="https://user-images.githubusercontent.com/112873819/220372774-ee55962d-e780-462d-bb9a-1153cf9d06b5.png" />
             <Card.Body>
